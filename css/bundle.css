@@ -1,0 +1,48 @@
+.button {
+  background: #000;
+}
+body {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, rgba(0,186,0,0.2))), 
+                linear-gradient(90deg, rgba(0,186,0,0.2) 50%, transparent 50%);
+  background: -webkit-linear-gradient(transparent 50%, rgba(0,186,0,0.2) 50%), 
+                -webkit-linear-gradient(0deg, rgba(0,186,0,0.2) 50%, transparent 50%);
+  background: linear-gradient(transparent 50%, rgba(0,186,0,0.2) 50%), 
+                linear-gradient(90deg, rgba(0,186,0,0.2) 50%, transparent 50%);
+  background-size: 40px 40px;
+}
+
+h1 {
+  font-family: 'Arial';
+  font-size: 24px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.nav {
+  text-align: center;
+  margin: 0px auto;
+  background: #eee;
+}
+
+.nav:after {
+  display: table;
+  content: ' ';
+  clear: both;
+}
+
+.nav_ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0px;
+}
+
+.nav_element:first-child {
+  margin-left: 0px;
+}
+
+.nav_element {
+  float: left;
+  margin-left: 15px;
+}
